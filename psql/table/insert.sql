@@ -10,7 +10,7 @@ INSERT INTO users (name, username)
 VALUES('Ali','ali');
 
 INSERT INTO users (name, username)
-VALUES('Ali','ali') RETURNING id;
+VALUES('Vali','vali') RETURNING id;
 
 INSERT INTO users (name, username)
-VALUES('Ali','ali') RETURNING *;
+VALUES('Murod','murod_ali') RETURNING *;
