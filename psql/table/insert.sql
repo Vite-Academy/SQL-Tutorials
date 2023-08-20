@@ -1,6 +1,16 @@
 -- https://www.postgresql.org/docs/current/sql-insert.html
 -- https://www.postgresqltutorial.com/postgresql-tutorial/postgresql-insert/
 
-INSERT INTO [name] (column1, column2, …)
-VALUES (value1, value2, …)
-RETURNING *;
+-- PostgreSQL insert into values
+-- INSERT INTO [name] (column1, column2, …)
+-- VALUES (value1, value2, …)
+-- RETURNING *;
+
+INSERT INTO users (name, username)
+VALUES('Ali','ali');
+
+INSERT INTO users (name, username)
+VALUES('Ali','ali') RETURNING id;
+
+INSERT INTO users (name, username)
+VALUES('Ali','ali') RETURNING *;
