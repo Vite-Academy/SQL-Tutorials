@@ -1,5 +1,6 @@
 -- https://www.postgresql.org/docs/current/sql-selectinto.html
 -- https://www.postgresqltutorial.com/postgresql-tutorial/postgresql-select-into/
+-- https://www.commandprompt.com/education/postgresql-select-into-statement-with-examples/
 
 
 -- PostgreSQL select into
